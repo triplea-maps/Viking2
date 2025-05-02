@@ -1,0 +1,490 @@
+<!-- Territory Definitions -->
+<territory name="B1"/>
+<territory name="B2"/>
+<territory name="B3"/>
+<territory name="B4"/>
+<territory name="B5"/>
+<territory name="B6"/>
+<territory name="B7"/>
+<territory name="B8"/>
+<territory name="B9"/>
+<territory name="B10"/>
+<territory name="B11"/>
+<territory name="B12"/>
+<territory name="B13"/>
+<territory name="B14"/>
+<territory name="B15"/>
+<territory name="B16"/>
+<territory name="B17"/>
+<territory name="B18"/>
+<territory name="B19"/>
+<territory name="B20"/>
+<territory name="D1"/>
+<territory name="D2"/>
+<territory name="D3"/>
+<territory name="D4"/>
+<territory name="D5"/>
+<territory name="D6"/>
+<territory name="D7"/>
+<territory name="D8"/>
+<territory name="D9"/>
+<territory name="D10"/>
+<territory name="D11"/>
+<territory name="IC1"/>
+<territory name="IC2"/>
+<territory name="IC3"/>
+<territory name="IC4"/>
+<territory name="IC5"/>
+<territory name="IC6"/>
+<territory name="IC7"/>
+<territory name="IC8"/>
+<territory name="IC9"/>
+<territory name="IR1"/>
+<territory name="IR2"/>
+<territory name="IR3"/>
+<territory name="IR4"/>
+<territory name="IR5"/>
+<territory name="IR6"/>
+<territory name="N1"/>
+<territory name="N2"/>
+<territory name="N3"/>
+<territory name="N4"/>
+<territory name="N5"/>
+<territory name="N6"/>
+<territory name="N7"/>
+<territory name="N8"/>
+<territory name="N9"/>
+<territory name="N10"/>
+<territory name="N11"/>
+<territory name="SZ1" water="true"/>
+<territory name="SZ2" water="true"/>
+<territory name="SZ3" water="true"/>
+<territory name="SZ4" water="true"/>
+<territory name="SZ5" water="true"/>
+<territory name="SZ6" water="true"/>
+<territory name="SZ7" water="true"/>
+<territory name="SZ8" water="true"/>
+<territory name="SZ9" water="true"/>
+<territory name="SZ10" water="true"/>
+<territory name="SZ11" water="true"/>
+<territory name="SZ12" water="true"/>
+<territory name="SZ13" water="true"/>
+<territory name="SZ14" water="true"/>
+<territory name="SZ15" water="true"/>
+<territory name="SZ16" water="true"/>
+<territory name="SZ17" water="true"/>
+<territory name="SZ18" water="true"/>
+<territory name="SZ19" water="true"/>
+<territory name="SZ20" water="true"/>
+<territory name="SZ21" water="true"/>
+<territory name="SZ22" water="true"/>
+<territory name="SZ23" water="true"/>
+<territory name="SZ24" water="true"/>
+<territory name="SZ25" water="true"/>
+<territory name="SZ26" water="true"/>
+<territory name="SZ27" water="true"/>
+<territory name="SZ28" water="true"/>
+<territory name="SZ29" water="true"/>
+<territory name="SZ30" water="true"/>
+<territory name="SZ31" water="true"/>
+<territory name="SZ32" water="true"/>
+<territory name="SZ33" water="true"/>
+<territory name="SZ34" water="true"/>
+<territory name="SZ35" water="true"/>
+<territory name="SZ36" water="true"/>
+<territory name="SZ37" water="true"/>
+<territory name="SZ38" water="true"/>
+<territory name="SZ39" water="true"/>
+<territory name="SZ40" water="true"/>
+<territory name="SZ41" water="true"/>
+<territory name="SZ42" water="true"/>
+<territory name="SZ43" water="true"/>
+<territory name="SZ44" water="true"/>
+<territory name="SZ45" water="true"/>
+<territory name="SZ46" water="true"/>
+<territory name="SZ47" water="true"/>
+<territory name="SZ48" water="true"/>
+<territory name="SZ49" water="true"/>
+<territory name="SZ50" water="true"/>
+<territory name="SZ51" water="true"/>
+<territory name="SZ52" water="true"/>
+<territory name="SZ53" water="true"/>
+<territory name="SZ54" water="true"/>
+<territory name="SZ55" water="true"/>
+<territory name="SZ56" water="true"/>
+<territory name="SZ57" water="true"/>
+<territory name="SZ58" water="true"/>
+<territory name="SZ59" water="true"/>
+<territory name="SZ60" water="true"/>
+<territory name="SZ61" water="true"/>
+<territory name="SZ62" water="true"/>
+<territory name="SZ63" water="true"/>
+<territory name="SZ64" water="true"/>
+<territory name="SZ65" water="true"/>
+<territory name="SZ66" water="true"/>
+<territory name="SZ67" water="true"/>
+<territory name="SZ68" water="true"/>
+<territory name="SZ69" water="true"/>
+<territory name="SZ70" water="true"/>
+<territory name="SZ71" water="true"/>
+<territory name="SZ72" water="true"/>
+<territory name="SZ73" water="true"/>
+<territory name="SZ74" water="true"/>
+<territory name="SZ75" water="true"/>
+<territory name="SZ76" water="true"/>
+<territory name="SZ77" water="true"/>
+<territory name="SZ78" water="true"/>
+<territory name="SZ79" water="true"/>
+<territory name="SZ80" water="true"/>
+
+<!-- Territory Connections -->
+<connection t1="B1" t2="SZ38"/>
+<connection t1="B2" t2="B6"/>
+<connection t1="B2" t2="B7"/>
+<connection t1="B2" t2="SZ26"/>
+<connection t1="B2" t2="SZ27"/>
+<connection t1="B2" t2="SZ38"/>
+<connection t1="B2" t2="SZ39"/>
+<connection t1="B2" t2="SZ43"/>
+<connection t1="B3" t2="SZ38"/>
+<connection t1="B4" t2="SZ38"/>
+<connection t1="B5" t2="SZ38"/>
+<connection t1="B6" t2="B7"/>
+<connection t1="B6" t2="B11"/>
+<connection t1="B6" t2="SZ38"/>
+<connection t1="B6" t2="SZ42"/>
+<connection t1="B7" t2="B11"/>
+<connection t1="B7" t2="B12"/>
+<connection t1="B7" t2="SZ43"/>
+<connection t1="B7" t2="SZ49"/>
+<connection t1="B8" t2="SZ42"/>
+<connection t1="B9" t2="SZ42"/>
+<connection t1="B10" t2="SZ42"/>
+<connection t1="B11" t2="B12"/>
+<connection t1="B11" t2="SZ42"/>
+<connection t1="B11" t2="SZ60"/>
+<connection t1="B12" t2="B13"/>
+<connection t1="B12" t2="B14"/>
+<connection t1="B12" t2="SZ49"/>
+<connection t1="B12" t2="SZ60"/>
+<connection t1="B12" t2="SZ61"/>
+<connection t1="B13" t2="B14"/>
+<connection t1="B13" t2="B15"/>
+<connection t1="B13" t2="B16"/>
+<connection t1="B13" t2="SZ60"/>
+<connection t1="B13" t2="SZ67"/>
+<connection t1="B14" t2="B16"/>
+<connection t1="B14" t2="B17"/>
+<connection t1="B14" t2="SZ61"/>
+<connection t1="B15" t2="B16"/>
+<connection t1="B15" t2="SZ67"/>
+<connection t1="B15" t2="SZ73"/>
+<connection t1="B15" t2="SZ74"/>
+<connection t1="B16" t2="B17"/>
+<connection t1="B16" t2="B18"/>
+<connection t1="B16" t2="B19"/>
+<connection t1="B16" t2="SZ74"/>
+<connection t1="B16" t2="SZ75"/>
+<connection t1="B17" t2="SZ61"/>
+<connection t1="B17" t2="SZ68"/>
+<connection t1="B17" t2="SZ75"/>
+<connection t1="B18" t2="B19"/>
+<connection t1="B18" t2="SZ73"/>
+<connection t1="B18" t2="SZ74"/>
+<connection t1="B18" t2="SZ77"/>
+<connection t1="B18" t2="SZ78"/>
+<connection t1="B19" t2="SZ75"/>
+<connection t1="B19" t2="SZ78"/>
+<connection t1="B19" t2="SZ79"/>
+<connection t1="B20" t2="SZ78"/>
+<connection t1="D1" t2="D2"/>
+<connection t1="D1" t2="SZ47"/>
+<connection t1="D1" t2="SZ48"/>
+<connection t1="D1" t2="SZ53"/>
+<connection t1="D1" t2="SZ57"/>
+<connection t1="D1" t2="SZ80"/>
+<connection t1="D2" t2="D3"/>
+<connection t1="D2" t2="D4"/>
+<connection t1="D2" t2="D5"/>
+<connection t1="D2" t2="SZ64"/>
+<connection t1="D2" t2="SZ80"/>
+<connection t1="D3" t2="D4"/>
+<connection t1="D3" t2="D6"/>
+<connection t1="D3" t2="D8"/>
+<connection t1="D3" t2="D9"/>
+<connection t1="D3" t2="SZ64"/>
+<connection t1="D3" t2="SZ69"/>
+<connection t1="D3" t2="SZ70"/>
+<connection t1="D4" t2="D5"/>
+<connection t1="D4" t2="D6"/>
+<connection t1="D4" t2="D7"/>
+<connection t1="D5" t2="D7"/>
+<connection t1="D6" t2="D7"/>
+<connection t1="D6" t2="D9"/>
+<connection t1="D6" t2="D10"/>
+<connection t1="D7" t2="D10"/>
+<connection t1="D7" t2="D11"/>
+<connection t1="D8" t2="D9"/>
+<connection t1="D8" t2="SZ69"/>
+<connection t1="D8" t2="SZ79"/>
+<connection t1="D9" t2="D10"/>
+<connection t1="D10" t2="D11"/>
+<connection t1="IC1" t2="IC2"/>
+<connection t1="IC1" t2="SZ1"/>
+<connection t1="IC1" t2="SZ2"/>
+<connection t1="IC1" t2="SZ3"/>
+<connection t1="IC1" t2="SZ10"/>
+<connection t1="IC2" t2="IC3"/>
+<connection t1="IC2" t2="IC5"/>
+<connection t1="IC2" t2="SZ3"/>
+<connection t1="IC2" t2="SZ4"/>
+<connection t1="IC2" t2="SZ10"/>
+<connection t1="IC2" t2="SZ15"/>
+<connection t1="IC3" t2="IC4"/>
+<connection t1="IC3" t2="IC5"/>
+<connection t1="IC3" t2="IC6"/>
+<connection t1="IC3" t2="SZ4"/>
+<connection t1="IC4" t2="IC6"/>
+<connection t1="IC4" t2="IC7"/>
+<connection t1="IC4" t2="SZ4"/>
+<connection t1="IC4" t2="SZ5"/>
+<connection t1="IC4" t2="SZ11"/>
+<connection t1="IC5" t2="IC6"/>
+<connection t1="IC5" t2="IC8"/>
+<connection t1="IC5" t2="SZ15"/>
+<connection t1="IC5" t2="SZ16"/>
+<connection t1="IC6" t2="IC7"/>
+<connection t1="IC6" t2="IC8"/>
+<connection t1="IC6" t2="IC9"/>
+<connection t1="IC6" t2="SZ19"/>
+<connection t1="IC7" t2="SZ11"/>
+<connection t1="IC7" t2="SZ19"/>
+<connection t1="IC8" t2="IC9"/>
+<connection t1="IC8" t2="SZ16"/>
+<connection t1="IC8" t2="SZ17"/>
+<connection t1="IC8" t2="SZ18"/>
+<connection t1="IC9" t2="SZ18"/>
+<connection t1="IC9" t2="SZ19"/>
+<connection t1="IR1" t2="IR2"/>
+<connection t1="IR1" t2="IR3"/>
+<connection t1="IR1" t2="SZ41"/>
+<connection t1="IR1" t2="SZ42"/>
+<connection t1="IR1" t2="SZ58"/>
+<connection t1="IR2" t2="IR4"/>
+<connection t1="IR2" t2="SZ42"/>
+<connection t1="IR2" t2="SZ59"/>
+<connection t1="IR3" t2="IR4"/>
+<connection t1="IR3" t2="IR5"/>
+<connection t1="IR3" t2="IR6"/>
+<connection t1="IR3" t2="SZ58"/>
+<connection t1="IR3" t2="SZ65"/>
+<connection t1="IR4" t2="IR6"/>
+<connection t1="IR4" t2="SZ59"/>
+<connection t1="IR4" t2="SZ66"/>
+<connection t1="IR5" t2="IR6"/>
+<connection t1="IR5" t2="SZ65"/>
+<connection t1="IR5" t2="SZ71"/>
+<connection t1="IR5" t2="SZ72"/>
+<connection t1="IR6" t2="SZ66"/>
+<connection t1="IR6" t2="SZ72"/>
+<connection t1="N1" t2="N2"/>
+<connection t1="N1" t2="SZ9"/>
+<connection t1="N2" t2="N3"/>
+<connection t1="N2" t2="N4"/>
+<connection t1="N2" t2="N8"/>
+<connection t1="N2" t2="SZ9"/>
+<connection t1="N2" t2="SZ14"/>
+<connection t1="N3" t2="N4"/>
+<connection t1="N3" t2="N6"/>
+<connection t1="N3" t2="SZ14"/>
+<connection t1="N3" t2="SZ23"/>
+<connection t1="N4" t2="N6"/>
+<connection t1="N4" t2="N7"/>
+<connection t1="N4" t2="N8"/>
+<connection t1="N5" t2="N6"/>
+<connection t1="N5" t2="N9"/>
+<connection t1="N5" t2="SZ23"/>
+<connection t1="N5" t2="SZ31"/>
+<connection t1="N6" t2="N7"/>
+<connection t1="N6" t2="N9"/>
+<connection t1="N6" t2="SZ23"/>
+<connection t1="N7" t2="N8"/>
+<connection t1="N7" t2="N9"/>
+<connection t1="N7" t2="N10"/>
+<connection t1="N8" t2="N10"/>
+<connection t1="N8" t2="N11"/>
+<connection t1="N9" t2="N10"/>
+<connection t1="N9" t2="SZ31"/>
+<connection t1="N9" t2="SZ36"/>
+<connection t1="N9" t2="SZ46"/>
+<connection t1="N9" t2="SZ47"/>
+<connection t1="N10" t2="N11"/>
+<connection t1="N10" t2="SZ47"/>
+<connection t1="N10" t2="SZ48"/>
+<connection t1="N11" t2="SZ48"/>
+<connection t1="N11" t2="SZ53"/>
+<connection t1="SZ1" t2="SZ2"/>
+<connection t1="SZ1" t2="SZ10"/>
+<connection t1="SZ2" t2="SZ3"/>
+<connection t1="SZ3" t2="SZ4"/>
+<connection t1="SZ4" t2="SZ5"/>
+<connection t1="SZ5" t2="SZ6"/>
+<connection t1="SZ5" t2="SZ11"/>
+<connection t1="SZ5" t2="SZ12"/>
+<connection t1="SZ6" t2="SZ7"/>
+<connection t1="SZ6" t2="SZ12"/>
+<connection t1="SZ7" t2="SZ8"/>
+<connection t1="SZ7" t2="SZ12"/>
+<connection t1="SZ7" t2="SZ13"/>
+<connection t1="SZ7" t2="SZ14"/>
+<connection t1="SZ8" t2="SZ9"/>
+<connection t1="SZ8" t2="SZ14"/>
+<connection t1="SZ9" t2="SZ14"/>
+<connection t1="SZ10" t2="SZ15"/>
+<connection t1="SZ11" t2="SZ12"/>
+<connection t1="SZ11" t2="SZ19"/>
+<connection t1="SZ11" t2="SZ20"/>
+<connection t1="SZ11" t2="SZ21"/>
+<connection t1="SZ12" t2="SZ13"/>
+<connection t1="SZ12" t2="SZ21"/>
+<connection t1="SZ13" t2="SZ14"/>
+<connection t1="SZ13" t2="SZ21"/>
+<connection t1="SZ13" t2="SZ22"/>
+<connection t1="SZ13" t2="SZ23"/>
+<connection t1="SZ14" t2="SZ23"/>
+<connection t1="SZ15" t2="SZ16"/>
+<connection t1="SZ15" t2="SZ24"/>
+<connection t1="SZ16" t2="SZ17"/>
+<connection t1="SZ16" t2="SZ24"/>
+<connection t1="SZ16" t2="SZ25"/>
+<connection t1="SZ17" t2="SZ18"/>
+<connection t1="SZ17" t2="SZ25"/>
+<connection t1="SZ17" t2="SZ26"/>
+<connection t1="SZ17" t2="SZ27"/>
+<connection t1="SZ18" t2="SZ19"/>
+<connection t1="SZ18" t2="SZ27"/>
+<connection t1="SZ18" t2="SZ28"/>
+<connection t1="SZ18" t2="SZ29"/>
+<connection t1="SZ19" t2="SZ20"/>
+<connection t1="SZ19" t2="SZ29"/>
+<connection t1="SZ20" t2="SZ21"/>
+<connection t1="SZ20" t2="SZ22"/>
+<connection t1="SZ20" t2="SZ29"/>
+<connection t1="SZ20" t2="SZ30"/>
+<connection t1="SZ21" t2="SZ22"/>
+<connection t1="SZ22" t2="SZ23"/>
+<connection t1="SZ22" t2="SZ30"/>
+<connection t1="SZ23" t2="SZ30"/>
+<connection t1="SZ23" t2="SZ31"/>
+<connection t1="SZ24" t2="SZ25"/>
+<connection t1="SZ24" t2="SZ32"/>
+<connection t1="SZ25" t2="SZ26"/>
+<connection t1="SZ25" t2="SZ32"/>
+<connection t1="SZ25" t2="SZ33"/>
+<connection t1="SZ26" t2="SZ27"/>
+<connection t1="SZ26" t2="SZ33"/>
+<connection t1="SZ26" t2="SZ38"/>
+<connection t1="SZ27" t2="SZ28"/>
+<connection t1="SZ27" t2="SZ34"/>
+<connection t1="SZ27" t2="SZ39"/>
+<connection t1="SZ28" t2="SZ29"/>
+<connection t1="SZ28" t2="SZ34"/>
+<connection t1="SZ28" t2="SZ35"/>
+<connection t1="SZ29" t2="SZ30"/>
+<connection t1="SZ29" t2="SZ35"/>
+<connection t1="SZ30" t2="SZ31"/>
+<connection t1="SZ30" t2="SZ35"/>
+<connection t1="SZ31" t2="SZ35"/>
+<connection t1="SZ31" t2="SZ36"/>
+<connection t1="SZ32" t2="SZ33"/>
+<connection t1="SZ32" t2="SZ37"/>
+<connection t1="SZ33" t2="SZ37"/>
+<connection t1="SZ33" t2="SZ38"/>
+<connection t1="SZ34" t2="SZ35"/>
+<connection t1="SZ34" t2="SZ39"/>
+<connection t1="SZ34" t2="SZ40"/>
+<connection t1="SZ34" t2="SZ44"/>
+<connection t1="SZ35" t2="SZ36"/>
+<connection t1="SZ35" t2="SZ40"/>
+<connection t1="SZ36" t2="SZ40"/>
+<connection t1="SZ36" t2="SZ46"/>
+<connection t1="SZ37" t2="SZ38"/>
+<connection t1="SZ37" t2="SZ41"/>
+<connection t1="SZ38" t2="SZ41"/>
+<connection t1="SZ38" t2="SZ42"/>
+<connection t1="SZ39" t2="SZ43"/>
+<connection t1="SZ39" t2="SZ44"/>
+<connection t1="SZ40" t2="SZ44"/>
+<connection t1="SZ40" t2="SZ45"/>
+<connection t1="SZ40" t2="SZ46"/>
+<connection t1="SZ41" t2="SZ42"/>
+<connection t1="SZ41" t2="SZ58"/>
+<connection t1="SZ42" t2="SZ59"/>
+<connection t1="SZ43" t2="SZ44"/>
+<connection t1="SZ43" t2="SZ49"/>
+<connection t1="SZ43" t2="SZ50"/>
+<connection t1="SZ44" t2="SZ45"/>
+<connection t1="SZ44" t2="SZ50"/>
+<connection t1="SZ45" t2="SZ46"/>
+<connection t1="SZ45" t2="SZ50"/>
+<connection t1="SZ45" t2="SZ51"/>
+<connection t1="SZ46" t2="SZ47"/>
+<connection t1="SZ46" t2="SZ52"/>
+<connection t1="SZ47" t2="SZ48"/>
+<connection t1="SZ47" t2="SZ52"/>
+<connection t1="SZ47" t2="SZ57"/>
+<connection t1="SZ48" t2="SZ53"/>
+<connection t1="SZ49" t2="SZ50"/>
+<connection t1="SZ49" t2="SZ54"/>
+<connection t1="SZ49" t2="SZ61"/>
+<connection t1="SZ50" t2="SZ51"/>
+<connection t1="SZ50" t2="SZ54"/>
+<connection t1="SZ51" t2="SZ52"/>
+<connection t1="SZ51" t2="SZ54"/>
+<connection t1="SZ51" t2="SZ55"/>
+<connection t1="SZ52" t2="SZ55"/>
+<connection t1="SZ52" t2="SZ56"/>
+<connection t1="SZ52" t2="SZ57"/>
+<connection t1="SZ54" t2="SZ55"/>
+<connection t1="SZ54" t2="SZ61"/>
+<connection t1="SZ55" t2="SZ56"/>
+<connection t1="SZ55" t2="SZ61"/>
+<connection t1="SZ55" t2="SZ62"/>
+<connection t1="SZ55" t2="SZ63"/>
+<connection t1="SZ56" t2="SZ57"/>
+<connection t1="SZ56" t2="SZ63"/>
+<connection t1="SZ57" t2="SZ63"/>
+<connection t1="SZ57" t2="SZ64"/>
+<connection t1="SZ58" t2="SZ65"/>
+<connection t1="SZ59" t2="SZ60"/>
+<connection t1="SZ59" t2="SZ66"/>
+<connection t1="SZ60" t2="SZ67"/>
+<connection t1="SZ61" t2="SZ62"/>
+<connection t1="SZ61" t2="SZ68"/>
+<connection t1="SZ62" t2="SZ63"/>
+<connection t1="SZ62" t2="SZ68"/>
+<connection t1="SZ62" t2="SZ69"/>
+<connection t1="SZ62" t2="SZ70"/>
+<connection t1="SZ63" t2="SZ64"/>
+<connection t1="SZ63" t2="SZ70"/>
+<connection t1="SZ64" t2="SZ70"/>
+<connection t1="SZ65" t2="SZ71"/>
+<connection t1="SZ66" t2="SZ67"/>
+<connection t1="SZ66" t2="SZ72"/>
+<connection t1="SZ67" t2="SZ73"/>
+<connection t1="SZ68" t2="SZ69"/>
+<connection t1="SZ68" t2="SZ75"/>
+<connection t1="SZ69" t2="SZ70"/>
+<connection t1="SZ69" t2="SZ75"/>
+<connection t1="SZ69" t2="SZ79"/>
+<connection t1="SZ71" t2="SZ72"/>
+<connection t1="SZ71" t2="SZ76"/>
+<connection t1="SZ72" t2="SZ73"/>
+<connection t1="SZ72" t2="SZ76"/>
+<connection t1="SZ72" t2="SZ77"/>
+<connection t1="SZ73" t2="SZ74"/>
+<connection t1="SZ73" t2="SZ77"/>
+<connection t1="SZ75" t2="SZ79"/>
+<connection t1="SZ76" t2="SZ77"/>
+<connection t1="SZ77" t2="SZ78"/>
+<connection t1="SZ78" t2="SZ79"/>

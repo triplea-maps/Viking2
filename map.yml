@@ -1,0 +1,4 @@
+map_name: Viking2
+games:
+- {game_name: Viking 2, file_name: Viking2.xml}
+version: 0
