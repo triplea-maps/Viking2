@@ -1,0 +1,1205 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Viking 2" version="2.0"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <diceSides value="6"/>
+  <map>
+	<!-- Territory Definitions -->
+<territory name="B1"/>
+<territory name="B2"/>
+<territory name="B3"/>
+<territory name="B4"/>
+<territory name="B5"/>
+<territory name="B6"/>
+<territory name="B7"/>
+<territory name="B8"/>
+<territory name="B9"/>
+<territory name="B10"/>
+<territory name="B11"/>
+<territory name="B12"/>
+<territory name="B13"/>
+<territory name="B14"/>
+<territory name="B15"/>
+<territory name="B16"/>
+<territory name="B17"/>
+<territory name="B18"/>
+<territory name="B19"/>
+<territory name="B20"/>
+<territory name="D1"/>
+<territory name="D2"/>
+<territory name="D3"/>
+<territory name="D4"/>
+<territory name="D5"/>
+<territory name="D6"/>
+<territory name="D7"/>
+<territory name="D8"/>
+<territory name="D9"/>
+<territory name="D10"/>
+<territory name="D11"/>
+<territory name="IC1"/>
+<territory name="IC2"/>
+<territory name="IC3"/>
+<territory name="IC4"/>
+<territory name="IC5"/>
+<territory name="IC6"/>
+<territory name="IC7"/>
+<territory name="IC8"/>
+<territory name="IC9"/>
+<territory name="IR1"/>
+<territory name="IR2"/>
+<territory name="IR3"/>
+<territory name="IR4"/>
+<territory name="IR5"/>
+<territory name="IR6"/>
+<territory name="N1"/>
+<territory name="N2"/>
+<territory name="N3"/>
+<territory name="N4"/>
+<territory name="N5"/>
+<territory name="N6"/>
+<territory name="N7"/>
+<territory name="N8"/>
+<territory name="N9"/>
+<territory name="N10"/>
+<territory name="N11"/>
+<territory name="Sea Zone 1" water="true"/>
+<territory name="Sea Zone 2" water="true"/>
+<territory name="Sea Zone 3" water="true"/>
+<territory name="Sea Zone 4" water="true"/>
+<territory name="Sea Zone 5" water="true"/>
+<territory name="Sea Zone 6" water="true"/>
+<territory name="Sea Zone 7" water="true"/>
+<territory name="Sea Zone 8" water="true"/>
+<territory name="Sea Zone 9" water="true"/>
+<territory name="Sea Zone 10" water="true"/>
+<territory name="Sea Zone 11" water="true"/>
+<territory name="Sea Zone 12" water="true"/>
+<territory name="Sea Zone 13" water="true"/>
+<territory name="Sea Zone 14" water="true"/>
+<territory name="Sea Zone 15" water="true"/>
+<territory name="Sea Zone 16" water="true"/>
+<territory name="Sea Zone 17" water="true"/>
+<territory name="Sea Zone 18" water="true"/>
+<territory name="Sea Zone 19" water="true"/>
+<territory name="Sea Zone 20" water="true"/>
+<territory name="Sea Zone 21" water="true"/>
+<territory name="Sea Zone 22" water="true"/>
+<territory name="Sea Zone 23" water="true"/>
+<territory name="Sea Zone 24" water="true"/>
+<territory name="Sea Zone 25" water="true"/>
+<territory name="Sea Zone 26" water="true"/>
+<territory name="Sea Zone 27" water="true"/>
+<territory name="Sea Zone 28" water="true"/>
+<territory name="Sea Zone 29" water="true"/>
+<territory name="Sea Zone 30" water="true"/>
+<territory name="Sea Zone 31" water="true"/>
+<territory name="Sea Zone 32" water="true"/>
+<territory name="Sea Zone 33" water="true"/>
+<territory name="Sea Zone 34" water="true"/>
+<territory name="Sea Zone 35" water="true"/>
+<territory name="Sea Zone 36" water="true"/>
+<territory name="Sea Zone 37" water="true"/>
+<territory name="Sea Zone 38" water="true"/>
+<territory name="Sea Zone 39" water="true"/>
+<territory name="Sea Zone 40" water="true"/>
+<territory name="Sea Zone 41" water="true"/>
+<territory name="Sea Zone 42" water="true"/>
+<territory name="Sea Zone 43" water="true"/>
+<territory name="Sea Zone 44" water="true"/>
+<territory name="Sea Zone 45" water="true"/>
+<territory name="Sea Zone 46" water="true"/>
+<territory name="Sea Zone 47" water="true"/>
+<territory name="Sea Zone 48" water="true"/>
+<territory name="Sea Zone 49" water="true"/>
+<territory name="Sea Zone 50" water="true"/>
+<territory name="Sea Zone 51" water="true"/>
+<territory name="Sea Zone 52" water="true"/>
+<territory name="Sea Zone 53" water="true"/>
+<territory name="Sea Zone 54" water="true"/>
+<territory name="Sea Zone 55" water="true"/>
+<territory name="Sea Zone 56" water="true"/>
+<territory name="Sea Zone 57" water="true"/>
+<territory name="Sea Zone 58" water="true"/>
+<territory name="Sea Zone 59" water="true"/>
+<territory name="Sea Zone 60" water="true"/>
+<territory name="Sea Zone 61" water="true"/>
+<territory name="Sea Zone 62" water="true"/>
+<territory name="Sea Zone 63" water="true"/>
+<territory name="Sea Zone 64" water="true"/>
+<territory name="Sea Zone 65" water="true"/>
+<territory name="Sea Zone 66" water="true"/>
+<territory name="Sea Zone 67" water="true"/>
+<territory name="Sea Zone 68" water="true"/>
+<territory name="Sea Zone 69" water="true"/>
+<territory name="Sea Zone 70" water="true"/>
+<territory name="Sea Zone 71" water="true"/>
+<territory name="Sea Zone 72" water="true"/>
+<territory name="Sea Zone 73" water="true"/>
+<territory name="Sea Zone 74" water="true"/>
+<territory name="Sea Zone 75" water="true"/>
+<territory name="Sea Zone 76" water="true"/>
+<territory name="Sea Zone 77" water="true"/>
+<territory name="Sea Zone 78" water="true"/>
+<territory name="Sea Zone 79" water="true"/>
+<territory name="Sea Zone 80" water="true"/>
+
+<!-- Territory Connections -->
+<connection t1="B1" t2="Sea Zone 38"/>
+<connection t1="B2" t2="B6"/>
+<connection t1="B2" t2="B7"/>
+<connection t1="B2" t2="Sea Zone 26"/>
+<connection t1="B2" t2="Sea Zone 27"/>
+<connection t1="B2" t2="Sea Zone 38"/>
+<connection t1="B2" t2="Sea Zone 39"/>
+<connection t1="B2" t2="Sea Zone 43"/>
+<connection t1="B3" t2="Sea Zone 38"/>
+<connection t1="B4" t2="Sea Zone 38"/>
+<connection t1="B5" t2="Sea Zone 38"/>
+<connection t1="B6" t2="B7"/>
+<connection t1="B6" t2="B11"/>
+<connection t1="B6" t2="Sea Zone 38"/>
+<connection t1="B6" t2="Sea Zone 42"/>
+<connection t1="B7" t2="B11"/>
+<connection t1="B7" t2="B12"/>
+<connection t1="B7" t2="Sea Zone 43"/>
+<connection t1="B7" t2="Sea Zone 49"/>
+<connection t1="B8" t2="Sea Zone 42"/>
+<connection t1="B9" t2="Sea Zone 42"/>
+<connection t1="B10" t2="Sea Zone 42"/>
+<connection t1="B11" t2="B12"/>
+<connection t1="B11" t2="Sea Zone 42"/>
+<connection t1="B11" t2="Sea Zone 60"/>
+<connection t1="B12" t2="B13"/>
+<connection t1="B12" t2="B14"/>
+<connection t1="B12" t2="Sea Zone 49"/>
+<connection t1="B12" t2="Sea Zone 60"/>
+<connection t1="B12" t2="Sea Zone 61"/>
+<connection t1="B13" t2="B14"/>
+<connection t1="B13" t2="B15"/>
+<connection t1="B13" t2="B16"/>
+<connection t1="B13" t2="Sea Zone 60"/>
+<connection t1="B13" t2="Sea Zone 67"/>
+<connection t1="B14" t2="B16"/>
+<connection t1="B14" t2="B17"/>
+<connection t1="B14" t2="Sea Zone 61"/>
+<connection t1="B15" t2="B16"/>
+<connection t1="B15" t2="Sea Zone 67"/>
+<connection t1="B15" t2="Sea Zone 73"/>
+<connection t1="B15" t2="Sea Zone 74"/>
+<connection t1="B16" t2="B17"/>
+<connection t1="B16" t2="B18"/>
+<connection t1="B16" t2="B19"/>
+<connection t1="B16" t2="Sea Zone 74"/>
+<connection t1="B16" t2="Sea Zone 75"/>
+<connection t1="B17" t2="Sea Zone 61"/>
+<connection t1="B17" t2="Sea Zone 68"/>
+<connection t1="B17" t2="Sea Zone 75"/>
+<connection t1="B18" t2="B19"/>
+<connection t1="B18" t2="Sea Zone 73"/>
+<connection t1="B18" t2="Sea Zone 74"/>
+<connection t1="B18" t2="Sea Zone 77"/>
+<connection t1="B18" t2="Sea Zone 78"/>
+<connection t1="B19" t2="Sea Zone 75"/>
+<connection t1="B19" t2="Sea Zone 78"/>
+<connection t1="B19" t2="Sea Zone 79"/>
+<connection t1="B20" t2="Sea Zone 78"/>
+<connection t1="D1" t2="D2"/>
+<connection t1="D1" t2="Sea Zone 47"/>
+<connection t1="D1" t2="Sea Zone 48"/>
+<connection t1="D1" t2="Sea Zone 53"/>
+<connection t1="D1" t2="Sea Zone 57"/>
+<connection t1="D1" t2="Sea Zone 80"/>
+<connection t1="D2" t2="D3"/>
+<connection t1="D2" t2="D4"/>
+<connection t1="D2" t2="D5"/>
+<connection t1="D2" t2="Sea Zone 64"/>
+<connection t1="D2" t2="Sea Zone 80"/>
+<connection t1="D3" t2="D4"/>
+<connection t1="D3" t2="D6"/>
+<connection t1="D3" t2="D8"/>
+<connection t1="D3" t2="D9"/>
+<connection t1="D3" t2="Sea Zone 64"/>
+<connection t1="D3" t2="Sea Zone 69"/>
+<connection t1="D3" t2="Sea Zone 70"/>
+<connection t1="D4" t2="D5"/>
+<connection t1="D4" t2="D6"/>
+<connection t1="D4" t2="D7"/>
+<connection t1="D5" t2="D7"/>
+<connection t1="D6" t2="D7"/>
+<connection t1="D6" t2="D9"/>
+<connection t1="D6" t2="D10"/>
+<connection t1="D7" t2="D10"/>
+<connection t1="D7" t2="D11"/>
+<connection t1="D8" t2="D9"/>
+<connection t1="D8" t2="Sea Zone 69"/>
+<connection t1="D8" t2="Sea Zone 79"/>
+<connection t1="D9" t2="D10"/>
+<connection t1="D10" t2="D11"/>
+<connection t1="IC1" t2="IC2"/>
+<connection t1="IC1" t2="Sea Zone 1"/>
+<connection t1="IC1" t2="Sea Zone 2"/>
+<connection t1="IC1" t2="Sea Zone 3"/>
+<connection t1="IC1" t2="Sea Zone 10"/>
+<connection t1="IC2" t2="IC3"/>
+<connection t1="IC2" t2="IC5"/>
+<connection t1="IC2" t2="Sea Zone 3"/>
+<connection t1="IC2" t2="Sea Zone 4"/>
+<connection t1="IC2" t2="Sea Zone 10"/>
+<connection t1="IC2" t2="Sea Zone 15"/>
+<connection t1="IC3" t2="IC4"/>
+<connection t1="IC3" t2="IC5"/>
+<connection t1="IC3" t2="IC6"/>
+<connection t1="IC3" t2="Sea Zone 4"/>
+<connection t1="IC4" t2="IC6"/>
+<connection t1="IC4" t2="IC7"/>
+<connection t1="IC4" t2="Sea Zone 4"/>
+<connection t1="IC4" t2="Sea Zone 5"/>
+<connection t1="IC4" t2="Sea Zone 11"/>
+<connection t1="IC5" t2="IC6"/>
+<connection t1="IC5" t2="IC8"/>
+<connection t1="IC5" t2="Sea Zone 15"/>
+<connection t1="IC5" t2="Sea Zone 16"/>
+<connection t1="IC6" t2="IC7"/>
+<connection t1="IC6" t2="IC8"/>
+<connection t1="IC6" t2="IC9"/>
+<connection t1="IC6" t2="Sea Zone 19"/>
+<connection t1="IC7" t2="Sea Zone 11"/>
+<connection t1="IC7" t2="Sea Zone 19"/>
+<connection t1="IC8" t2="IC9"/>
+<connection t1="IC8" t2="Sea Zone 16"/>
+<connection t1="IC8" t2="Sea Zone 17"/>
+<connection t1="IC8" t2="Sea Zone 18"/>
+<connection t1="IC9" t2="Sea Zone 18"/>
+<connection t1="IC9" t2="Sea Zone 19"/>
+<connection t1="IR1" t2="IR2"/>
+<connection t1="IR1" t2="IR3"/>
+<connection t1="IR1" t2="Sea Zone 41"/>
+<connection t1="IR1" t2="Sea Zone 42"/>
+<connection t1="IR1" t2="Sea Zone 58"/>
+<connection t1="IR2" t2="IR4"/>
+<connection t1="IR2" t2="Sea Zone 42"/>
+<connection t1="IR2" t2="Sea Zone 59"/>
+<connection t1="IR3" t2="IR4"/>
+<connection t1="IR3" t2="IR5"/>
+<connection t1="IR3" t2="IR6"/>
+<connection t1="IR3" t2="Sea Zone 58"/>
+<connection t1="IR3" t2="Sea Zone 65"/>
+<connection t1="IR4" t2="IR6"/>
+<connection t1="IR4" t2="Sea Zone 59"/>
+<connection t1="IR4" t2="Sea Zone 66"/>
+<connection t1="IR5" t2="IR6"/>
+<connection t1="IR5" t2="Sea Zone 65"/>
+<connection t1="IR5" t2="Sea Zone 71"/>
+<connection t1="IR5" t2="Sea Zone 72"/>
+<connection t1="IR6" t2="Sea Zone 66"/>
+<connection t1="IR6" t2="Sea Zone 72"/>
+<connection t1="N1" t2="N2"/>
+<connection t1="N1" t2="Sea Zone 9"/>
+<connection t1="N2" t2="N3"/>
+<connection t1="N2" t2="N4"/>
+<connection t1="N2" t2="N8"/>
+<connection t1="N2" t2="Sea Zone 9"/>
+<connection t1="N2" t2="Sea Zone 14"/>
+<connection t1="N3" t2="N4"/>
+<connection t1="N3" t2="N6"/>
+<connection t1="N3" t2="Sea Zone 14"/>
+<connection t1="N3" t2="Sea Zone 23"/>
+<connection t1="N4" t2="N6"/>
+<connection t1="N4" t2="N7"/>
+<connection t1="N4" t2="N8"/>
+<connection t1="N5" t2="N6"/>
+<connection t1="N5" t2="N9"/>
+<connection t1="N5" t2="Sea Zone 23"/>
+<connection t1="N5" t2="Sea Zone 31"/>
+<connection t1="N6" t2="N7"/>
+<connection t1="N6" t2="N9"/>
+<connection t1="N6" t2="Sea Zone 23"/>
+<connection t1="N7" t2="N8"/>
+<connection t1="N7" t2="N9"/>
+<connection t1="N7" t2="N10"/>
+<connection t1="N8" t2="N10"/>
+<connection t1="N8" t2="N11"/>
+<connection t1="N9" t2="N10"/>
+<connection t1="N9" t2="Sea Zone 31"/>
+<connection t1="N9" t2="Sea Zone 36"/>
+<connection t1="N9" t2="Sea Zone 46"/>
+<connection t1="N9" t2="Sea Zone 47"/>
+<connection t1="N10" t2="N11"/>
+<connection t1="N10" t2="Sea Zone 47"/>
+<connection t1="N10" t2="Sea Zone 48"/>
+<connection t1="N11" t2="Sea Zone 48"/>
+<connection t1="N11" t2="Sea Zone 53"/>
+<connection t1="Sea Zone 1" t2="Sea Zone 2"/>
+<connection t1="Sea Zone 1" t2="Sea Zone 10"/>
+<connection t1="Sea Zone 2" t2="Sea Zone 3"/>
+<connection t1="Sea Zone 3" t2="Sea Zone 4"/>
+<connection t1="Sea Zone 4" t2="Sea Zone 5"/>
+<connection t1="Sea Zone 5" t2="Sea Zone 6"/>
+<connection t1="Sea Zone 5" t2="Sea Zone 11"/>
+<connection t1="Sea Zone 5" t2="Sea Zone 12"/>
+<connection t1="Sea Zone 6" t2="Sea Zone 7"/>
+<connection t1="Sea Zone 6" t2="Sea Zone 12"/>
+<connection t1="Sea Zone 7" t2="Sea Zone 8"/>
+<connection t1="Sea Zone 7" t2="Sea Zone 12"/>
+<connection t1="Sea Zone 7" t2="Sea Zone 13"/>
+<connection t1="Sea Zone 7" t2="Sea Zone 14"/>
+<connection t1="Sea Zone 8" t2="Sea Zone 9"/>
+<connection t1="Sea Zone 8" t2="Sea Zone 14"/>
+<connection t1="Sea Zone 9" t2="Sea Zone 14"/>
+<connection t1="Sea Zone 10" t2="Sea Zone 15"/>
+<connection t1="Sea Zone 11" t2="Sea Zone 12"/>
+<connection t1="Sea Zone 11" t2="Sea Zone 19"/>
+<connection t1="Sea Zone 11" t2="Sea Zone 20"/>
+<connection t1="Sea Zone 11" t2="Sea Zone 21"/>
+<connection t1="Sea Zone 12" t2="Sea Zone 13"/>
+<connection t1="Sea Zone 12" t2="Sea Zone 21"/>
+<connection t1="Sea Zone 13" t2="Sea Zone 14"/>
+<connection t1="Sea Zone 13" t2="Sea Zone 21"/>
+<connection t1="Sea Zone 13" t2="Sea Zone 22"/>
+<connection t1="Sea Zone 13" t2="Sea Zone 23"/>
+<connection t1="Sea Zone 14" t2="Sea Zone 23"/>
+<connection t1="Sea Zone 15" t2="Sea Zone 16"/>
+<connection t1="Sea Zone 15" t2="Sea Zone 24"/>
+<connection t1="Sea Zone 16" t2="Sea Zone 17"/>
+<connection t1="Sea Zone 16" t2="Sea Zone 24"/>
+<connection t1="Sea Zone 16" t2="Sea Zone 25"/>
+<connection t1="Sea Zone 17" t2="Sea Zone 18"/>
+<connection t1="Sea Zone 17" t2="Sea Zone 25"/>
+<connection t1="Sea Zone 17" t2="Sea Zone 26"/>
+<connection t1="Sea Zone 17" t2="Sea Zone 27"/>
+<connection t1="Sea Zone 18" t2="Sea Zone 19"/>
+<connection t1="Sea Zone 18" t2="Sea Zone 27"/>
+<connection t1="Sea Zone 18" t2="Sea Zone 28"/>
+<connection t1="Sea Zone 18" t2="Sea Zone 29"/>
+<connection t1="Sea Zone 19" t2="Sea Zone 20"/>
+<connection t1="Sea Zone 19" t2="Sea Zone 29"/>
+<connection t1="Sea Zone 20" t2="Sea Zone 21"/>
+<connection t1="Sea Zone 20" t2="Sea Zone 22"/>
+<connection t1="Sea Zone 20" t2="Sea Zone 29"/>
+<connection t1="Sea Zone 20" t2="Sea Zone 30"/>
+<connection t1="Sea Zone 21" t2="Sea Zone 22"/>
+<connection t1="Sea Zone 22" t2="Sea Zone 23"/>
+<connection t1="Sea Zone 22" t2="Sea Zone 30"/>
+<connection t1="Sea Zone 23" t2="Sea Zone 30"/>
+<connection t1="Sea Zone 23" t2="Sea Zone 31"/>
+<connection t1="Sea Zone 24" t2="Sea Zone 25"/>
+<connection t1="Sea Zone 24" t2="Sea Zone 32"/>
+<connection t1="Sea Zone 25" t2="Sea Zone 26"/>
+<connection t1="Sea Zone 25" t2="Sea Zone 32"/>
+<connection t1="Sea Zone 25" t2="Sea Zone 33"/>
+<connection t1="Sea Zone 26" t2="Sea Zone 27"/>
+<connection t1="Sea Zone 26" t2="Sea Zone 33"/>
+<connection t1="Sea Zone 26" t2="Sea Zone 38"/>
+<connection t1="Sea Zone 27" t2="Sea Zone 28"/>
+<connection t1="Sea Zone 27" t2="Sea Zone 34"/>
+<connection t1="Sea Zone 27" t2="Sea Zone 39"/>
+<connection t1="Sea Zone 28" t2="Sea Zone 29"/>
+<connection t1="Sea Zone 28" t2="Sea Zone 34"/>
+<connection t1="Sea Zone 28" t2="Sea Zone 35"/>
+<connection t1="Sea Zone 29" t2="Sea Zone 30"/>
+<connection t1="Sea Zone 29" t2="Sea Zone 35"/>
+<connection t1="Sea Zone 30" t2="Sea Zone 31"/>
+<connection t1="Sea Zone 30" t2="Sea Zone 35"/>
+<connection t1="Sea Zone 31" t2="Sea Zone 35"/>
+<connection t1="Sea Zone 31" t2="Sea Zone 36"/>
+<connection t1="Sea Zone 32" t2="Sea Zone 33"/>
+<connection t1="Sea Zone 32" t2="Sea Zone 37"/>
+<connection t1="Sea Zone 33" t2="Sea Zone 37"/>
+<connection t1="Sea Zone 33" t2="Sea Zone 38"/>
+<connection t1="Sea Zone 34" t2="Sea Zone 35"/>
+<connection t1="Sea Zone 34" t2="Sea Zone 39"/>
+<connection t1="Sea Zone 34" t2="Sea Zone 40"/>
+<connection t1="Sea Zone 34" t2="Sea Zone 44"/>
+<connection t1="Sea Zone 35" t2="Sea Zone 36"/>
+<connection t1="Sea Zone 35" t2="Sea Zone 40"/>
+<connection t1="Sea Zone 36" t2="Sea Zone 40"/>
+<connection t1="Sea Zone 36" t2="Sea Zone 46"/>
+<connection t1="Sea Zone 37" t2="Sea Zone 38"/>
+<connection t1="Sea Zone 37" t2="Sea Zone 41"/>
+<connection t1="Sea Zone 38" t2="Sea Zone 41"/>
+<connection t1="Sea Zone 38" t2="Sea Zone 42"/>
+<connection t1="Sea Zone 39" t2="Sea Zone 43"/>
+<connection t1="Sea Zone 39" t2="Sea Zone 44"/>
+<connection t1="Sea Zone 40" t2="Sea Zone 44"/>
+<connection t1="Sea Zone 40" t2="Sea Zone 45"/>
+<connection t1="Sea Zone 40" t2="Sea Zone 46"/>
+<connection t1="Sea Zone 41" t2="Sea Zone 42"/>
+<connection t1="Sea Zone 41" t2="Sea Zone 58"/>
+<connection t1="Sea Zone 42" t2="Sea Zone 59"/>
+<connection t1="Sea Zone 43" t2="Sea Zone 44"/>
+<connection t1="Sea Zone 43" t2="Sea Zone 49"/>
+<connection t1="Sea Zone 43" t2="Sea Zone 50"/>
+<connection t1="Sea Zone 44" t2="Sea Zone 45"/>
+<connection t1="Sea Zone 44" t2="Sea Zone 50"/>
+<connection t1="Sea Zone 45" t2="Sea Zone 46"/>
+<connection t1="Sea Zone 45" t2="Sea Zone 50"/>
+<connection t1="Sea Zone 45" t2="Sea Zone 51"/>
+<connection t1="Sea Zone 46" t2="Sea Zone 47"/>
+<connection t1="Sea Zone 46" t2="Sea Zone 52"/>
+<connection t1="Sea Zone 47" t2="Sea Zone 48"/>
+<connection t1="Sea Zone 47" t2="Sea Zone 52"/>
+<connection t1="Sea Zone 47" t2="Sea Zone 57"/>
+<connection t1="Sea Zone 48" t2="Sea Zone 53"/>
+<connection t1="Sea Zone 49" t2="Sea Zone 50"/>
+<connection t1="Sea Zone 49" t2="Sea Zone 54"/>
+<connection t1="Sea Zone 49" t2="Sea Zone 61"/>
+<connection t1="Sea Zone 50" t2="Sea Zone 51"/>
+<connection t1="Sea Zone 50" t2="Sea Zone 54"/>
+<connection t1="Sea Zone 51" t2="Sea Zone 52"/>
+<connection t1="Sea Zone 51" t2="Sea Zone 54"/>
+<connection t1="Sea Zone 51" t2="Sea Zone 55"/>
+<connection t1="Sea Zone 52" t2="Sea Zone 55"/>
+<connection t1="Sea Zone 52" t2="Sea Zone 56"/>
+<connection t1="Sea Zone 52" t2="Sea Zone 57"/>
+<connection t1="Sea Zone 54" t2="Sea Zone 55"/>
+<connection t1="Sea Zone 54" t2="Sea Zone 61"/>
+<connection t1="Sea Zone 55" t2="Sea Zone 56"/>
+<connection t1="Sea Zone 55" t2="Sea Zone 61"/>
+<connection t1="Sea Zone 55" t2="Sea Zone 62"/>
+<connection t1="Sea Zone 55" t2="Sea Zone 63"/>
+<connection t1="Sea Zone 56" t2="Sea Zone 57"/>
+<connection t1="Sea Zone 56" t2="Sea Zone 63"/>
+<connection t1="Sea Zone 57" t2="Sea Zone 63"/>
+<connection t1="Sea Zone 57" t2="Sea Zone 64"/>
+<connection t1="Sea Zone 58" t2="Sea Zone 65"/>
+<connection t1="Sea Zone 59" t2="Sea Zone 60"/>
+<connection t1="Sea Zone 59" t2="Sea Zone 66"/>
+<connection t1="Sea Zone 60" t2="Sea Zone 67"/>
+<connection t1="Sea Zone 61" t2="Sea Zone 62"/>
+<connection t1="Sea Zone 61" t2="Sea Zone 68"/>
+<connection t1="Sea Zone 62" t2="Sea Zone 63"/>
+<connection t1="Sea Zone 62" t2="Sea Zone 68"/>
+<connection t1="Sea Zone 62" t2="Sea Zone 69"/>
+<connection t1="Sea Zone 62" t2="Sea Zone 70"/>
+<connection t1="Sea Zone 63" t2="Sea Zone 64"/>
+<connection t1="Sea Zone 63" t2="Sea Zone 70"/>
+<connection t1="Sea Zone 64" t2="Sea Zone 70"/>
+<connection t1="Sea Zone 65" t2="Sea Zone 71"/>
+<connection t1="Sea Zone 66" t2="Sea Zone 67"/>
+<connection t1="Sea Zone 66" t2="Sea Zone 72"/>
+<connection t1="Sea Zone 67" t2="Sea Zone 73"/>
+<connection t1="Sea Zone 68" t2="Sea Zone 69"/>
+<connection t1="Sea Zone 68" t2="Sea Zone 75"/>
+<connection t1="Sea Zone 69" t2="Sea Zone 70"/>
+<connection t1="Sea Zone 69" t2="Sea Zone 75"/>
+<connection t1="Sea Zone 69" t2="Sea Zone 79"/>
+<connection t1="Sea Zone 71" t2="Sea Zone 72"/>
+<connection t1="Sea Zone 71" t2="Sea Zone 76"/>
+<connection t1="Sea Zone 72" t2="Sea Zone 73"/>
+<connection t1="Sea Zone 72" t2="Sea Zone 76"/>
+<connection t1="Sea Zone 72" t2="Sea Zone 77"/>
+<connection t1="Sea Zone 73" t2="Sea Zone 74"/>
+<connection t1="Sea Zone 73" t2="Sea Zone 77"/>
+<connection t1="Sea Zone 75" t2="Sea Zone 79"/>
+<connection t1="Sea Zone 76" t2="Sea Zone 77"/>
+<connection t1="Sea Zone 77" t2="Sea Zone 78"/>
+<connection t1="Sea Zone 78" t2="Sea Zone 79"/>
+
+	</map>
+	
+	<resourceList>
+		<resource name="PUs"/>
+	</resourceList>
+	
+	<playerList>
+		<player name="Danes" optional="true"/>
+		<player name="Scotland" optional="true"/>
+		<player name="Norwegians" optional="true"/>
+		<player name="Icelanders" optional="true"/>
+		<player name="Mercia" optional="true"/>
+		<player name="Germany" optional="true"/>
+
+		<alliance player="Danes" alliance="Pagans"/>
+		<alliance player="Scotland" alliance="Christians"/>
+		<alliance player="Norwegians" alliance="Pagans"/>
+		<alliance player="Icelanders" alliance="Pagans"/>
+		<alliance player="Mercia" alliance="Christians"/>
+		<alliance player="Germany" alliance="Christians"/>
+		
+	</playerList>
+	
+	<unitList>
+		<unit name="archer"/>
+		<unit name="axeshield"/>
+		<unit name="berserker"/>
+		<unit name="boat"/>
+		<unit name="dog"/>
+		<unit name="longboat"/>
+		<unit name="spearman"/>
+		<unit name="swordshield"/>
+		<unit name="transportboat"/>
+		<unit name="village"/>
+		<unit name="crossbowmen"/>
+		<unit name="horsemen"/>
+		<unit name="monk"/>
+		<unit name="polemen"/>
+		<unit name="ranger"/>
+		<unit name="ship"/>
+		<unit name="soldier"/>
+		<unit name="transport"/>
+		<unit name="infantry"/>
+		
+	</unitList>
+	
+	<gamePlay>
+		<delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+		<delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+		<delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+		<delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+		<delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+		<delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+		<delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+		<delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+		<delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+			<sequence>
+			  <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+			  
+			  <!-- Bidding Phase -->
+			  <!-- Danes - Jutes - Norwegians - Icelanders - Scotland - Mercia - Germany -->
+			  <step name="DanesBid" delegate="bid" player="Danes" maxRunCount="1"/>
+			  <step name="DanesBidPlace" delegate="placeBid" player="Danes" maxRunCount="1"/>
+			  <step name="NorwegiansBid" delegate="bid" player="Norwegians" maxRunCount="1"/>
+			  <step name="NorwegiansBidPlace" delegate="placeBid" player="Norwegians" maxRunCount="1"/>
+			  <step name="IcelandersBid" delegate="bid" player="Icelanders" maxRunCount="1"/>
+			  <step name="IcelandersBidPlace" delegate="placeBid" player="Icelanders" maxRunCount="1"/>
+			  <step name="ScotlandBid" delegate="bid" player="Scotland" maxRunCount="1"/>
+			  <step name="ScotlandBidPlace" delegate="placeBid" player="Scotland" maxRunCount="1"/>
+			  <step name="MerciaBid" delegate="bid" player="Mercia" maxRunCount="1"/>
+			  <step name="MerciaBidPlace" delegate="placeBid" player="Mercia" maxRunCount="1"/>
+			  <step name="GermanyBid" delegate="bid" player="Germany" maxRunCount="1"/>
+			  <step name="GermanyBidPlace" delegate="placeBid" player="Germany" maxRunCount="1"/>
+		
+			  
+			  <!-- Danes Game Sequence -->
+			  <step name="DanesPurchase" delegate="purchase" player="Danes"/>
+			  <step name="DanesCombatMove" delegate="move" player="Danes"/>
+			  <step name="DanesBattle" delegate="battle" player="Danes"/>
+			  <step name="DanesNonCombatMove" delegate="move" player="Danes" display="Non Combat Move"/>
+			  <step name="DanesPlace" delegate="place" player="Danes"/>
+			  <step name="DanesEndTurn" delegate="endTurn" player="Danes"/>
+			  			  
+			  <!-- Norwegians Game Sequence -->
+			  <step name="NorwegiansPurchase" delegate="purchase" player="Norwegians"/>
+			  <step name="NorwegiansCombatMove" delegate="move" player="Norwegians"/>
+			  <step name="NorwegiansBattle" delegate="battle" player="Norwegians"/>
+			  <step name="NorwegiansNonCombatMove" delegate="move" player="Norwegians" display="Non Combat Move"/>
+			  <step name="NorwegiansPlace" delegate="place" player="Norwegians"/>
+			  <step name="NorwegiansEndTurn" delegate="endTurn" player="Norwegians"/>
+			  
+			  <!-- Icelanders Game Sequence -->
+			  <step name="IcelandersPurchase" delegate="purchase" player="Icelanders"/>
+			  <step name="IcelandersCombatMove" delegate="move" player="Icelanders"/>
+			  <step name="IcelandersBattle" delegate="battle" player="Icelanders"/>
+			  <step name="IcelandersNonCombatMove" delegate="move" player="Icelanders" display="Non Combat Move"/>
+			  <step name="IcelandersPlace" delegate="place" player="Icelanders"/>
+			  <step name="IcelandersEndTurn" delegate="endTurn" player="Icelanders"/>
+			  
+			  <!-- Scotland Game Sequence -->
+			  <step name="ScotlandPurchase" delegate="purchase" player="Scotland"/>
+			  <step name="ScotlandCombatMove" delegate="move" player="Scotland"/>
+			  <step name="ScotlandBattle" delegate="battle" player="Scotland"/>
+			  <step name="ScotlandNonCombatMove" delegate="move" player="Scotland" display="Non Combat Move"/>
+			  <step name="ScotlandPlace" delegate="place" player="Scotland"/>
+			  <step name="ScotlandEndTurn" delegate="endTurn" player="Scotland"/>
+			  
+			  <!-- Mercia Game Sequence -->
+			  <step name="MerciaPurchase" delegate="purchase" player="Mercia"/>
+			  <step name="MerciaCombatMove" delegate="move" player="Mercia"/>
+			  <step name="MerciaBattle" delegate="battle" player="Mercia"/>
+			  <step name="MerciaNonCombatMove" delegate="move" player="Mercia" display="Non Combat Move"/>
+			  <step name="MerciaPlace" delegate="place" player="Mercia"/>
+			  <step name="MerciaEndTurn" delegate="endTurn" player="Mercia"/>
+			  
+			  <!-- Germany Game Sequence -->
+			  <step name="GermanyPurchase" delegate="purchase" player="Germany"/>
+			  <step name="GermanyCombatMove" delegate="move" player="Germany"/>
+			  <step name="GermanyBattle" delegate="battle" player="Germany"/>
+			  <step name="GermanyNonCombatMove" delegate="move" player="Germany" display="Non Combat Move"/>
+			  <step name="GermanyPlace" delegate="place" player="Germany"/>
+			  <step name="GermanyEndTurn" delegate="endTurn" player="Germany"/>
+		</sequence>
+  </gamePlay>
+  
+  <production>
+		<!-- Unit Production Cost -->
+		
+		<productionRule name="buyarcher">
+		   <cost resource="PUs" quantity="3" />
+		   <result resourceOrUnit="archer" quantity="1"/>
+        </productionRule>
+		<productionRule name="buyaxeshield">
+		   <cost resource="PUs" quantity="3" />
+		   <result resourceOrUnit="axeshield" quantity="1"/>
+        </productionRule>
+		<productionRule name="buyberserker">
+		   <cost resource="PUs" quantity="5" />
+		   <result resourceOrUnit="berserker" quantity="1"/>
+        </productionRule>
+		<productionRule name="buyboat">
+		   <cost resource="PUs" quantity="1" />
+		   <result resourceOrUnit="boat" quantity="1"/>
+        </productionRule>
+		<productionRule name="buydog">
+		   <cost resource="PUs" quantity="2" />
+		   <result resourceOrUnit="dog" quantity="1"/>
+        </productionRule>
+		<productionRule name="buylongboat">
+		   <cost resource="PUs" quantity="5" />
+		   <result resourceOrUnit="longboat" quantity="1"/>
+        </productionRule>
+		<productionRule name="buyspearman">
+		   <cost resource="PUs" quantity="2" />
+		   <result resourceOrUnit="spearman" quantity="1"/>
+        </productionRule>
+		<productionRule name="buyswordshield">
+		   <cost resource="PUs" quantity="3" />
+		   <result resourceOrUnit="swordshield" quantity="1"/>
+        </productionRule>
+		<productionRule name="buytransportboat">
+		   <cost resource="PUs" quantity="4" />
+		   <result resourceOrUnit="transportboat" quantity="1"/>
+        </productionRule>
+		<productionRule name="buyvillage">
+		   <cost resource="PUs" quantity="10" />
+		   <result resourceOrUnit="village" quantity="1"/>
+        </productionRule>
+		<productionRule name="buycrossbowmen">
+		   <cost resource="PUs" quantity="5" />
+		   <result resourceOrUnit="crossbowmen" quantity="1"/>
+        </productionRule>
+		<productionRule name="buyhorsemen">
+		   <cost resource="PUs" quantity="4" />
+		   <result resourceOrUnit="horsemen" quantity="1"/>
+        </productionRule>
+		<productionRule name="buymonk">
+		   <cost resource="PUs" quantity="1" />
+		   <result resourceOrUnit="monk" quantity="1"/>
+        </productionRule>
+		<productionRule name="buypolemen">
+		   <cost resource="PUs" quantity="3" />
+		   <result resourceOrUnit="polemen" quantity="1"/>
+        </productionRule>
+		<productionRule name="buyranger">
+		   <cost resource="PUs" quantity="3" />
+		   <result resourceOrUnit="ranger" quantity="1"/>
+        </productionRule>
+		<productionRule name="buyship">
+		   <cost resource="PUs" quantity="4" />
+		   <result resourceOrUnit="ship" quantity="1"/>
+        </productionRule>
+		<productionRule name="buysoldier">
+		   <cost resource="PUs" quantity="3" />
+		   <result resourceOrUnit="soldier" quantity="1"/>
+        </productionRule>
+		<productionRule name="buytransport">
+		   <cost resource="PUs" quantity="3" />
+		   <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+				<productionRule name="buyinfantry">
+		   <cost resource="PUs" quantity="3" />
+		   <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+
+		<!-- Viking production -->
+		<productionFrontier name="DanesProduction">
+		  <frontierRules name="buyarcher"/>
+		  <frontierRules name="buyaxeshield"/>
+		  <frontierRules name="buyberserker"/>
+		  <frontierRules name="buyboat"/>
+		  <frontierRules name="buydog"/>
+		  <frontierRules name="buylongboat"/>
+		  <frontierRules name="buyspearman"/>
+		  <frontierRules name="buyswordshield"/>
+		  <frontierRules name="buytransportboat"/>
+		  <frontierRules name="buyvillage"/>
+		</productionFrontier>
+				
+		<productionFrontier name="NorwegiansProduction">
+		  <frontierRules name="buyarcher"/>
+		  <frontierRules name="buyaxeshield"/>
+		  <frontierRules name="buyberserker"/>
+		  <frontierRules name="buyboat"/>
+		  <frontierRules name="buydog"/>
+		  <frontierRules name="buylongboat"/>
+		  <frontierRules name="buyspearman"/>
+		  <frontierRules name="buyswordshield"/>
+		  <frontierRules name="buytransportboat"/>
+		  <frontierRules name="buyvillage"/>
+		</productionFrontier>
+		
+		<productionFrontier name="IcelandersProduction">
+		  <frontierRules name="buyarcher"/>
+		  <frontierRules name="buyaxeshield"/>
+		  <frontierRules name="buyberserker"/>
+		  <frontierRules name="buyboat"/>
+		  <frontierRules name="buydog"/>
+		  <frontierRules name="buylongboat"/>
+		  <frontierRules name="buyspearman"/>
+		  <frontierRules name="buyswordshield"/>
+		  <frontierRules name="buytransportboat"/>
+		  <frontierRules name="buyvillage"/>
+		</productionFrontier>
+		
+		<!-- English production -->
+		<productionFrontier name="ScotlandProduction">
+		  <frontierRules name="buyvillage"/>
+		  <frontierRules name="buycrossbowmen"/>
+		  <frontierRules name="buyhorsemen"/>
+		  <frontierRules name="buymonk"/>
+		  <frontierRules name="buypolemen"/>
+		  <frontierRules name="buyranger"/>
+		  <frontierRules name="buyship"/>
+		  <frontierRules name="buysoldier"/>
+		  <frontierRules name="buytransport"/>
+		  <frontierRules name="buyboat"/>
+		</productionFrontier>
+		
+		<productionFrontier name="MerciaProduction">
+		  <frontierRules name="buyvillage"/>
+		  <frontierRules name="buycrossbowmen"/>
+		  <frontierRules name="buyhorsemen"/>
+		  <frontierRules name="buymonk"/>
+		  <frontierRules name="buypolemen"/>
+		  <frontierRules name="buyranger"/>
+		  <frontierRules name="buyship"/>
+		  <frontierRules name="buysoldier"/>
+		  <frontierRules name="buytransport"/>
+		  <frontierRules name="buyboat"/>
+		</productionFrontier>
+		
+		<productionFrontier name="GermanyProduction">
+		  <frontierRules name="buyvillage"/>
+		  <frontierRules name="buycrossbowmen"/>
+		  <frontierRules name="buyhorsemen"/>
+		  <frontierRules name="buymonk"/>
+		  <frontierRules name="buypolemen"/>
+		  <frontierRules name="buyranger"/>
+		  <frontierRules name="buyship"/>
+		  <frontierRules name="buysoldier"/>
+		  <frontierRules name="buytransport"/>
+		  <frontierRules name="buyboat"/>
+		</productionFrontier>
+		
+		<playerProduction player="Danes" frontier="DanesProduction"/>
+		<playerProduction player="Norwegians" frontier="NorwegiansProduction"/>
+		<playerProduction player="Icelanders" frontier="IcelandersProduction"/>
+		<playerProduction player="Scotland" frontier="ScotlandProduction"/>
+		<playerProduction player="Mercia" frontier="MerciaProduction"/>
+		<playerProduction player="Germany" frontier="GermanyProduction"/>
+		
+</production>
+
+	<technology>
+	</technology>
+	
+	<attachmentList>
+		<!-- This is for your units	-->
+		<attachment name="unitAttachment" attachTo="village" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="isFactory" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="archer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="1"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="1"/>
+		  <option name="defense" value="2"/>
+		  <option name="artillery" value="true"/> 
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="axeshield" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="1"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="2"/>
+		  <option name="defense" value="1"/>
+		  <option name="artillerySupportable" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="berserker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="3"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="4"/>
+		  <option name="defense" value="1"/>
+		  <option name="canBlitz" value="true"/>
+		  <option name="artillerySupportable" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="boat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="2"/>
+          <option name="isSea" value="true"/>   
+          <option name="transportCapacity" value="1"/>   
+		  <option name="attack" value="0"/>
+          <option name="defense" value="1"/> 
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="dog" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="2"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="1"/>
+		  <option name="defense" value="1"/>
+		  <option name="canBlitz" value="true"/>
+		  <option name="artillerySupportable" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="longboat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="2"/>
+          <option name="isSea" value="true"/>   
+          <option name="transportCapacity" value="3"/>   
+          <option name="attack" value="2"/>
+          <option name="defense" value="2"/> 
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="spearman" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="1"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="1"/>
+		  <option name="defense" value="1"/>
+		  <option name="artillerySupportable" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="swordshield" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="1"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="1"/>
+		  <option name="defense" value="2"/>
+		  <option name="artillerySupportable" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="transportboat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		   <option name="movement" value="3"/>
+           <option name="isSea" value="true"/>   
+           <option name="transportCapacity" value="6"/>   
+           <option name="attack" value="1"/>
+           <option name="defense" value="1"/> 
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="crossbowmen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="1"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="1"/>
+		  <option name="defense" value="4"/>
+		  <option name="artillery" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="horsemen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="2"/>
+		  <option name="transportCost" value="2"/>
+		  <option name="attack" value="3"/>
+		  <option name="defense" value="2"/>
+		  <option name="artillerySupportable" value="true"/>
+		  <option name="canBlitz" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="monk" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="2"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="0"/>
+		  <option name="defense" value="1"/>
+		  <option name="artillery" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="polemen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="1"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="1"/>
+		  <option name="defense" value="2"/>
+		  <option name="artillerySupportable" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="1"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="1"/>
+		  <option name="defense" value="2"/>
+		  <option name="artillery" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="2"/>
+          <option name="isSea" value="true"/>   
+          <option name="transportCapacity" value="3"/>   
+          <option name="attack" value="3"/>
+          <option name="defense" value="2"/> 
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="soldier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="1"/>
+		  <option name="transportCost" value="1"/>
+		  <option name="attack" value="2"/>
+		  <option name="defense" value="1"/>
+		  <option name="artillerySupportable" value="true"/>
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+		  <option name="movement" value="3"/>
+          <option name="isSea" value="true"/>   
+          <option name="transportCapacity" value="6"/>   
+          <option name="attack" value="0"/>
+          <option name="defense" value="1"/>   
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+          <option name="defense" value="2"/>   
+      <option name="maxBuiltPerPlayer"  value="6"/>
+		</attachment>
+		
+		<!-- This is for your territories -->
+		<attachment name="territoryAttachment" attachTo="IC1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IC2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IC3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IC4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IC5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="6"/>
+		  <option name="capital" value="Icelanders"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IC6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IC7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IC8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IC9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment>
+		<attachment name="territoryAttachment" attachTo="N1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		  <option name="capital" value="Danes"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="6"/>
+		  <option name="capital" value="Norwegians"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="N11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IR1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IR2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IR3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IR4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IR5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="IR6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="6"/>
+		  		  <option name="capital" value="Danes"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="3"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="D11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="4"/>
+		  <option name="capital" value="Germany"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="3"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="6"/>
+		  <option name="capital" value="Scotland"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B8" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B12" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B13" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B14" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B15" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B16" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="6"/>
+		  <option name="capital" value="Mercia"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B17" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B18" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B19" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="2"/>
+		</attachment> 
+		<attachment name="territoryAttachment" attachTo="B20" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+		  <option name="production" value="1"/>
+		</attachment> 
+			
+		</attachmentList>
+	 
+	 <initialize>
+    <ownerInitialize>
+      <!-- owners Lands -->
+      <territoryOwner territory="D1" owner="Danes"/>
+	  <territoryOwner territory="N10" owner="Norwegians"/>
+      <territoryOwner territory="IC5" owner="Icelanders"/>
+	  <territoryOwner territory="B7" owner="Scotland"/>
+	  <territoryOwner territory="B16" owner="Mercia"/>
+	  <territoryOwner territory="D11" owner="Germany"/>
+    
+	 </ownerInitialize>
+	
+	<unitInitialize>
+	
+      <unitPlacement unitType="village" territory="D1" quantity="1" owner="Danes"/>
+      <unitPlacement unitType="swordshield" territory="D1" quantity="1" owner="Danes"/>
+	  	  
+	  <unitPlacement unitType="village" territory="N10" quantity="1" owner="Norwegians"/>
+      <unitPlacement unitType="swordshield" territory="N10" quantity="1" owner="Norwegians"/>
+	  
+	  <unitPlacement unitType="village" territory="IC5" quantity="1" owner="Icelanders"/>
+      <unitPlacement unitType="swordshield" territory="IC5" quantity="1" owner="Icelanders"/>
+	  
+	  <unitPlacement unitType="village" territory="B7" quantity="1" owner="Scotland"/>
+      <unitPlacement unitType="polemen" territory="B7" quantity="1" owner="Scotland"/>
+	  
+	  <unitPlacement unitType="village" territory="B16" quantity="1" owner="Mercia"/>
+      <unitPlacement unitType="polemen" territory="B16" quantity="1" owner="Mercia"/>
+	  
+	  <unitPlacement unitType="village" territory="D11" quantity="1" owner="Germany"/>
+      <unitPlacement unitType="polemen" territory="D11" quantity="1" owner="Germany"/>
+	  
+	  
+	  
+	  
+	  
+	  
+	 </unitInitialize>
+	   
+    <resourceInitialize>
+      <resourceGiven player="Danes" resource="PUs" quantity="10"/>
+	  <resourceGiven player="Norwegians" resource="PUs" quantity="10"/>
+	  <resourceGiven player="Icelanders" resource="PUs" quantity="10"/>
+	  <resourceGiven player="Scotland" resource="PUs" quantity="10"/>
+	  <resourceGiven player="Mercia" resource="PUs" quantity="10"/>
+	   <resourceGiven player="Germany" resource="PUs" quantity="10"/>
+    </resourceInitialize>
+	  </initialize>
+	  <propertyList>
+	  <property name="Use Triggers" value="true" editable="false">
+						<boolean/>
+				</property>
+	  <property name="Unplaced units live when not placed" value ="true" editable="false">
+						<boolean/>
+				</property> 
+	  <property name="Neutrals Are Blitzable" value="true" editable="true">
+	  <boolean/>
+	</property>
+      <property name="WW2V2" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- do not make this true -->
+        <property name="Economic Victory" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Axis Economic Victory" value="94" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Allies Economic Victory" value="94" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+
+    
+    <property name="maxFactoriesPerTerritory" value="1"/>
+    <property name="mapName" value="Viking2" editable="false"/>
+	<property name="notes" value="This is a working in progress. This is a map about the english and the vikings in 900ad approx. Modified by Roger Cooper to have historical starting locations, build-capped to prevent spamming and added victory conditions."/>
+	  </propertyList>
+</game>
